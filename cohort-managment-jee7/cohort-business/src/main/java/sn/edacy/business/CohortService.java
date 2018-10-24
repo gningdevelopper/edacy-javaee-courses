@@ -12,7 +12,7 @@ import sn.edacy.model.Talent;
 
 @Stateless
 public class CohortService {
-
+          // modification sur cette classe avec l'editeur vim
 	@PersistenceContext
 	private EntityManager entityManager;
 	
@@ -27,4 +27,5 @@ public class CohortService {
 		Query query =  entityManager.createQuery("select c from Cohort c");
 		return query.getResultList();
 	}
+// j'ai effectuer une modification 
 }
