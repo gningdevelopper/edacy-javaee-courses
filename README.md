@@ -11,7 +11,7 @@ This repo contains sources for JEE training given at Edacy Makersday
         <resource-root path="mysql-connector-java-5.1.45-bin.jar"/>              
     </resources>
     <dependencies>
-        <module name="javax.api"/>
+        <module name="jav
         <module name="javax.transaction.api"/>
     </dependencies>
 </module>
